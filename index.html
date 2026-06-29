@@ -69,11 +69,25 @@ target="_blank">
 </div>
 
 <p class="footer">
-Developed by Bowen Wang
+Developed by Bowen Wang<br>
+<span id="visitor-count">👥 Loading visitors...</span>
 </p>
 
 </div>
 </div>
+
+<script>
+fetch("https://uvxchem-counter.bowenwanguv.workers.dev")
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById("visitor-count").textContent =
+            `👥 ${data.visitors.toLocaleString()} Visitors`;
+    })
+    .catch(() => {
+        document.getElementById("visitor-count").textContent =
+            "👥 Visitor counter unavailable";
+    });
+</script>
 
 </body>
 </html>
