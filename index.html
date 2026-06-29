@@ -81,11 +81,11 @@ fetch("https://uvxchem-counter.bowenwanguv.workers.dev")
     .then(response => response.json())
     .then(data => {
         document.getElementById("visitor-count").textContent =
-            `👥 ${data.visitors.toLocaleString()} Visitors`;
+            `🌍 ${data.visitors.toLocaleString()} Visitors`;
     })
     .catch(() => {
         document.getElementById("visitor-count").textContent =
-            "👥 Visitor counter unavailable";
+            "🌍 Visitor counter unavailable";
     });
 </script>
 
