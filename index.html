@@ -1,80 +1,195 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>UVX Chem | Open Chemistry Platform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UVX Chem | Free LC-MS and Chemistry Tools</title>
+    <meta name="description" content="Free browser-based tools for LC-MS adducts, exact mass, spectrum OCR, oligomer analysis, SMILES, UV response, photoinitiators, and solvent compatibility.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://uvxchem.com/">
     <link rel="stylesheet" href="style.css">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://uvxchem.com/">
+    <meta property="og:title" content="UVX Chem | Free LC-MS and Chemistry Tools">
+    <meta property="og:description" content="Practical online tools and guides for analytical chemistry, LC-MS, molecular structures, UV analysis, and photochemistry.">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "UVX Chem",
+        "url": "https://uvxchem.com/",
+        "description": "Free browser-based tools and educational resources for LC-MS, analytical chemistry, materials science, and photochemistry."
+    }
+    </script>
 </head>
 
 <body>
+<main class="page-shell">
+    <section class="card hero-card" aria-labelledby="main-title">
+        <div class="tag">Open Chemistry Platform</div>
 
-<div class="hero">
-<div class="card">
+        <h1 id="main-title">UVX Chem</h1>
+        <p class="headline">Free LC-MS and Chemistry Tools</p>
 
-<div class="tag">Open Chemistry Platform</div>
+        <p class="intro">
+            Analytical Chemistry <span aria-hidden="true">•</span>
+            Materials Science <span aria-hidden="true">•</span>
+            Photochemistry
+        </p>
 
-<h1>UVX Chem</h1>
+        <p class="intro2">
+            Calculate exact mass and LC-MS adducts, extract m/z values from
+            mass-spectrum images, explore oligomer patterns, analyze SMILES
+            structures, and estimate UV and solvent behavior—all directly in
+            your browser.
+        </p>
 
-<h2>For Research and Innovation</h2>
+        <div class="buttons two-buttons" aria-label="Chemistry applications">
+            <a class="button primary"
+               href="https://lcms-assistant.streamlit.app/"
+               target="_blank"
+               rel="noopener noreferrer">
+                🔬 Open LCMS Assistant
+            </a>
 
-<p class="intro">
-Analytical Chemistry • Materials Science • Photochemistry
-</p>
+            <a class="button primary"
+               href="https://uvx-photoassistant.streamlit.app/"
+               target="_blank"
+               rel="noopener noreferrer">
+                🧪 Open PhotoAssistant
+            </a>
+        </div>
 
-<p class="intro2">
-Free online chemistry tools, curated scientific databases, and AI-assisted
-resources for researchers, students, and industry professionals.
-</p>
+        <section class="tools" aria-labelledby="tools-title">
+            <h2 id="tools-title" class="section-title">Interactive Chemistry Tools</h2>
 
-<div class="buttons two-buttons">
+            <div class="features">
+                <div>Exact Mass &amp; DBE</div>
+                <div>Formula Calculator</div>
+                <div>Mass-Spectrum OCR</div>
+                <div>LC-MS Adduct Matrix</div>
+                <div>SMILES Analysis</div>
+                <div>UV Predictor</div>
+                <div>Oligomer Finder</div>
+                <div>Solvent Compatibility</div>
+                <div>Chemical Structure Editor</div>
+                <div>Photoinitiator Database</div>
+                <div>UV Spectra Library</div>
+                <div>Positive &amp; Negative Ions</div>
+            </div>
+        </section>
+    </section>
 
-<a class="button primary"
-href="https://lcms-assistant.streamlit.app/"
-target="_blank">
-🔬 LCMS Assistant
-</a>
+    <section class="card learning-card" aria-labelledby="learning-title">
+        <div class="section-kicker">Chemistry Guides</div>
+        <h2 id="learning-title" class="learning-title">Learn LC-MS and Chemical Analysis</h2>
+        <p class="section-intro">
+            Practical explanations of the calculations and scientific concepts
+            behind the UVX Chem tools.
+        </p>
 
-<a class="button primary"
-href="https://uvx-photoassistant.streamlit.app/"
-target="_blank">
-🧪 PhotoAssistant
-</a>
+        <div class="guide-grid">
+            <article class="guide-item">
+                <h3>How to Calculate LC-MS Adduct m/z</h3>
+                <p>
+                    Learn how neutral exact mass is converted into common ions
+                    such as [M+H]+, [M+Na]+, [M+NH4]+, [M−H]−, and dimer ions.
+                </p>
+            </article>
 
-</div>
+            <article class="guide-item">
+                <h3>How to Identify an Adduct from an Observed m/z</h3>
+                <p>
+                    Assign a possible adduct to an experimental peak, estimate
+                    the neutral molecular mass, and calculate related ions.
+                </p>
+            </article>
 
-<div class="features">
+            <article class="guide-item">
+                <h3>How to Predict Common LC-MS Adducts</h3>
+                <p>
+                    Explore how molecular structure, ionization polarity, and
+                    mobile-phase additives influence likely adduct formation.
+                </p>
+            </article>
 
-<div>Exact Mass</div>
-<div>Formula Calculator</div>
-<div>SMILES Analysis</div>
-<div>UV Predictor</div>
+            <article class="guide-item">
+                <h3>How to Estimate UV Absorption from SMILES</h3>
+                <p>
+                    Understand how aromatic rings, conjugation, carbonyl groups,
+                    and heteroatoms affect UV detectability and absorption range.
+                </p>
+            </article>
 
-<div>LC-MS Adducts</div>
-<div>ChemDraw Lite</div>
-<div>Photoinitiator Database</div>
-<div>UV Spectra Library</div>
+            <article class="guide-item">
+                <h3>How to Calculate DBE from a Molecular Formula</h3>
+                <p>
+                    Use double-bond equivalents to evaluate rings, multiple
+                    bonds, unsaturation, and molecular-formula plausibility.
+                </p>
+            </article>
 
-</div>
+            <article class="guide-item">
+                <h3>How to Generate SMILES from a Chemical Structure</h3>
+                <p>
+                    Draw a chemical structure and generate its SMILES notation
+                    for molecular-property calculations, structure analysis,
+                    and chemical database searches.
+                </p>
+            </article>
 
-<div class="feedback">
+            <article class="guide-item">
+                <h3>How to Find Oligomer Repeat Units</h3>
+                <p>
+                    Analyze measured m/z values for repeat units, homologous
+                    series, monomers, dimers, and possible oligomer patterns.
+                </p>
+            </article>
 
-<a class="button secondary"
-href="https://docs.google.com/forms/d/e/1FAIpQLSftaTErIdTIYx-z6rI560Ip8u7SiEffjcnhN0ab0B9HAv15Og/viewform?usp=dialog"
-target="_blank">
+            <article class="guide-item">
+                <h3>How to Select a Solvent for Chemical Extraction</h3>
+                <p>
+                    Compare solvent compatibility, polarity, and predicted
+                    partition behavior for analytical sample preparation.
+                </p>
+            </article>
+        </div>
 
-💡 Suggest a Feature
+        <div class="guide-cta">
+            <a class="button primary compact"
+               href="https://lcms-assistant.streamlit.app/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Try the Free LC-MS Tools →
+            </a>
+        </div>
+    </section>
 
-</a>
+    <section class="card community-card" aria-labelledby="community-title">
+        <h2 id="community-title" class="community-title">Help Improve UVX Chem</h2>
+        <p>
+            Have an idea for a chemistry calculator, database, or analytical workflow?
+            Share your suggestion for a future update.
+        </p>
 
-</div>
+        <div class="feedback">
+            <a class="button secondary"
+               href="https://docs.google.com/forms/d/e/1FAIpQLSftaTErIdTIYx-z6rI560Ip8u7SiEffjcnhN0ab0B9HAv15Og/viewform?usp=dialog"
+               target="_blank"
+               rel="noopener noreferrer">
+                💡 Suggest a Feature
+            </a>
+        </div>
 
-<p class="footer">
-Developed by Bowen Wang<br>
-<span id="visitor-count">🌍 Loading visitors...</span>
-</p>
-
-</div>
-</div>
+        <p class="footer">
+            Developed by Bowen Wang<br>
+            <span id="visitor-count" aria-live="polite">🌍 Loading visitors...</span>
+        </p>
+    </section>
+</main>
 
 <script>
 fetch("https://uvxchem-counter.bowenwanguv.workers.dev")
@@ -88,6 +203,5 @@ fetch("https://uvxchem-counter.bowenwanguv.workers.dev")
             "🌍 Visitor counter unavailable";
     });
 </script>
-
 </body>
 </html>
